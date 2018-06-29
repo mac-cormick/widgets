@@ -1,0 +1,63 @@
+	{
+	"widget": {
+		"name": "widget.name",
+		"description": "widget.description",
+		"short_description": "widget.short_description",
+		"code": "amo_smsc",
+		"secret_key": "0289b1e072bcdc9197c188e2b57fa1491b43db7d4249081045a815ca7dfe3c0b",
+		"version": "2.0.8",
+		"interface_version": 2,
+		"init_once": false,
+		"locale": [
+			"ru"
+		],
+		"installation": true
+	},
+	"locations": [
+		"ccard-1",
+		"lcard-1",
+		"cucard-1",
+		"culist-1",
+		"llist-1",
+		"tlist-1",
+		"clist-1",
+		"settings",
+		"digital_pipeline"
+	],
+	"settings": {
+		"login": {
+			"name": "settings.login",
+			"id": "login",
+			"type": "text",
+			"required": false
+		},
+		"password": {
+			"name": "settings.password",
+			"id": "password",
+			"type": "pass",
+			"required": false
+		},
+		"templates_dp": {
+			"name": "settings.templates_dp",
+			"id": "templates_dp",
+			"type": "text",
+			"required": false
+		},
+		"oferta": {
+			"name": "settings.oferta",
+			"type": "custom",
+			"required": false
+		}
+	},
+	"dp":{
+		"settings": {
+			"message": {
+				"name": "settings.message",
+				"id": "message",
+				"type": "text",
+				"required": false
+			}
+		},
+		"action_multiple": false
+	}
+}

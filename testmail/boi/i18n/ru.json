@@ -1,0 +1,10 @@
+{
+    "widget":{
+        "name":"testmail",
+        "short_description":"Короткое описание виджета",
+        "description":"Полное описание виджета"
+    },
+    "settings":{
+        "login":"Логин"
+    }
+}

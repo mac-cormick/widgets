@@ -1,0 +1,578 @@
+@import url("/widgets/amo_smsc/plugins/select2/select2.min.css");
+
+
+.smsc_form {
+	padding: 15px 15px 15px;
+	margin-top: 18px;
+	background: #fff;
+	border: 1px solid #dbdedf;
+	border-radius: 10px;
+}
+
+.smsc_remark {
+	font-size: 70%;
+	color: grey;
+}
+
+#phlist,#smsmes {
+	width: 100%;
+  height: 189px;
+  border: 1px solid #d4d5d8;
+}
+
+#req_ss,#req_tpl {
+	font-size: smaller;
+	color: #1375ab;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#smsc_trans {
+	vertical-align: bottom;
+}
+
+#sendbtn,#costbtn {
+	margin-top: 20px;
+}
+
+#sdate {
+	margin-bottom: 15px;
+	margin-top: 5px;
+	width: 100%;
+}
+
+#err {
+  padding: 10px 0;
+	color: #FF8686;
+	font-size: 11px;
+}
+
+.smscru_dp_marker_label {
+  display: flex;
+  cursor: pointer;
+  width: 160px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.between_padding {
+  padding-top: 8px;
+  
+}
+
+.between_padding .control--select--button{
+  border-width: 1px;
+}
+
+.smscru_dp_marker_block {
+  margin-top: 10px;
+}
+
+.smscru_dp_marker_block .marker-list__tag-descr {
+  padding-left: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 308px;
+}
+
+.digital-pipeline__example-label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.dp_message_label {
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.smscru_dp_marker {
+  color: #5394b7;
+  padding-right: 4px;
+}
+
+/*#widget_settings__fields_wrapper{*/
+/*margin-top: -11px !important;*/
+/*}*/
+
+#smscru_modal-body {
+  width: 95%;
+  max-width: 850px;
+}
+
+.smscru_remark {
+  font-size: 70%;
+  color: grey;
+}
+
+.smscru-modal-window .modal-body {
+  width: 760px;
+  min-height: 478px;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+#smscru_edit_tpl, #smscru_upd_tpl {
+  font-size: smaller;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.smscru_dp_templates_dp_controll {
+  margin-left: -68px;
+}
+
+.smscru_form .control--select--button {
+  cursor: pointer;
+  padding-top: 0;
+}
+
+.smscru_form input[type=checkbox] {
+  cursor: pointer;
+}
+
+#smscru_costbtn {
+  margin-top: 20px;
+}
+
+#smscru_sdate {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+#smscru_err {
+  color: #FF8686;
+  font-size: 11px;
+}
+
+#delbadphones {
+  font-size: 11px;
+  padding: 2px;
+  margin-top: 5px;
+  white-space: normal;
+}
+
+#smscru_tp_details {
+  width: 55%;
+  float: left;
+  padding: 25px;
+}
+
+#smscru_tpname {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#smscru_tpcontent {
+  width: 100%;
+  margin-bottom: 15px;
+  min-height: 160px
+}
+
+#smscru_tp_macroses {
+  overflow-y: auto;
+  height: 200px;
+}
+
+#smscru_tp_macroses .sms_ru_tpl_markers__title {
+  margin-bottom: 15px;
+}
+
+#smscru_tp_macroses .marker-list__tag-bot {
+  overflow: hidden;
+  margin-right: 5px;
+  text-overflow: ellipsis;
+  flex-basis: 200px;
+}
+
+#smscru_tp_list {
+  float: left;
+  width: 35%;
+  padding: 25px 25px 25px 0;
+}
+
+#sms-templates_wrapper {
+  margin-bottom: 15px;
+  height: 375px;
+}
+
+#sms-templates_header {
+  font-size: 20px;
+  line-height: 37px;
+  color: #313942;
+  margin: 0 0 6px;
+}
+
+.sms-templates_holder {
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.sms-templates_holder .template-item__body {
+  padding: 3px 33px 3px 5px;
+}
+
+.sms-templates_holder .template-item__body-inner {
+  width: 100%;
+}
+
+.sms-templates_holder .template-item__name {
+  color: inherit;
+}
+
+.sms-templates_holder .template-item__body-edit {
+  padding: 3px 10px 0 0;
+}
+
+.digital-pipeline__business_processes-inner_widget .digital-pipeline__short-task_widget-style_amo_sms_ru_v4 {
+  background: #6a6a6a;
+}
+
+#smscru_savetps {
+  float: right;
+}
+
+#smscru_pay {
+  font-size: x-small;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.tpl-active {
+  border: 1px solid #4077d6;
+}
+
+.tpl-active .template-item__body {
+  background: #4c8bf7;
+}
+
+.tpl-active .template-item__name {
+  color: #fff;
+}
+
+smscruheader {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 3px;
+  display: block;
+}
+
+/*--- new design ---*/
+.smscru_form {
+  cursor: default;
+  margin: -12px -10px -10px;
+  padding: 19px 21px 0;
+}
+
+.smscru_elem .control--select {
+  height: 34px;
+}
+
+.smscru_elem .control--select--button:after {
+  right: 8px;
+}
+
+#smscru_wrap_tpl .control--select--button {
+  background: #fafafa;
+  border-width: 1px;
+  padding-left: 6px;
+}
+
+.smscru_edit_tpl,
+.smscru_upd_tpl {
+  color: #2a84c0;
+}
+
+.smscru_message {
+  margin-top: 13px;
+}
+
+#smscru_smsmes {
+  background-color: #f9f9f9;
+  font-size: 18px;
+  height: 189px;
+  padding: 4px 6px;
+  width: 100%;
+}
+
+#smscru_ss_cr {
+  margin-top: 13px;
+}
+.digital-pipeline__edit-forms #smscru_ss_cr {
+  margin-top: 10px;
+}
+
+#smscru_ss_cr .control--select--button {
+  background: transparent;
+  border-width: 1px;
+  padding-left: 7px;
+}
+
+.smscru_contacts {
+  margin-top: 13px;
+}
+
+.smscru_limit {
+  color: #afafaf;
+  margin-top: 9px;
+}
+
+.smscru_form .select2-container {
+  font-size: 14px;
+  width: 100% !important;
+  background: -webkit-linear-gradient(top,#fcfcfc 0%,#f8f8f9 100%);
+  background: linear-gradient(to bottom,#fcfcfc 0%,#f8f8f9 100%);
+}
+
+.smscru_form .select2-container--default .select2-selection--multiple {
+  background-color: transparent;
+  border-color: #d4d5d8;
+  border-radius: 3px;
+  line-height: 0;
+}
+
+.smscru_form .select2-container--default.select2-container--focus .select2-selection--multiple {
+  border-color: #c1c1c1;
+}
+
+.smscru_form .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+  line-height: normal;
+  max-height: 73px;
+  padding: 1px 7px 0;
+  overflow-y: auto;
+}
+
+.smscru_form .select2-container--default .select2-search--inline .select2-search__field {
+  font-size: 15px;
+  height: 15px;
+  line-height: 1;
+  width: 100% !important;
+}
+
+.smscru_form .select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: transparent;
+  border-color: #d4d5d8;
+  border-radius: 3px;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 3px;
+  position: relative;
+}
+
+.smscru_form .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  color: #dd6567;
+  font-size: 15px;
+  position: absolute;
+  top: -1px;
+  right: 2px;
+}
+
+.select2-dropdown {
+  border-color: #d4d5d8;
+  overflow: hidden;
+}
+
+.select2-container--default .select2-results__option[aria-selected="true"] {
+  background-color: #ededed;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #f2f2f2;
+  color: inherit;
+}
+
+.smscru_cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.smscru_cont_name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.smscru_cont_name:not(:empty) {
+  padding-right: 3px;
+}
+
+.smscru_cont_phone {
+  white-space: nowrap;
+}
+
+.smscru_sending {
+  position: relative;
+}
+
+.smscru_sending_field {
+  position: relative;
+  background: -webkit-linear-gradient(top,#fcfcfc 0%,#f8f8f9 100%);
+  background: linear-gradient(to bottom,#fcfcfc 0%,#f8f8f9 100%);
+}
+
+.smscru_sending_field:after {
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  content: "";
+  cursor: pointer;
+  height: 6px;
+  position: absolute;
+  right: 9px;
+  top: calc(50% - 5px);
+  transform: rotate(45deg);
+  width: 6px;
+  z-index: 1;
+}
+
+#smscru_sending_input {
+  background-color: transparent;
+  border-color: #d4d5d8;
+  cursor: pointer;
+  height: 34px;
+  padding-left: 7px;
+  padding-right: 25px;
+  width: 100%;
+}
+
+.smscru_sending_popup {
+  background: -webkit-linear-gradient(top,#fcfcfc 0%,#f8f8f9 100%);
+  background: linear-gradient(to bottom,#fcfcfc 0%,#f8f8f9 100%);
+  border: 1px solid #d4d5d8;
+  border-top: 0px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: none;
+  padding: 5px 7px;
+  position: absolute;
+  top: 35px;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.smscru_sending_date .date_field::-webkit-input-placeholder {
+  color: rgba(103, 110, 121, 0.5);
+}
+
+.smscru_sending_date .date_field::-moz-placeholder {
+  color: rgba(103, 110, 121, 0.5);
+}
+
+.smscru_sending_date .date_field:-moz-placeholder {
+  color: rgba(103, 110, 121, 0.5);
+}
+
+.smscru_sending_date .date_field:-ms-input-placeholder {
+  color: rgba(103, 110, 121, 0.5);
+}
+
+.smscru_sending_date .date_field {
+  padding-right: 7px;
+}
+
+.smscru_sending_date .date_field_wrapper--calendar {
+  left: 6px;
+}
+
+.smscru_sending_time .control--suggest--input {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.smscru_sending_time .control--suggest--down-btn {
+  right: 7px;
+}
+
+#smscru_sending_close {
+  margin-top: 5px;
+}
+
+.smscru_btn {
+  margin-top: 9px;
+}
+
+#smscru_sendbtn {
+  padding: 9px 18px 11px 17px;
+}
+
+#smscru_err {
+  margin-top: 13px;
+}
+
+/*--- /new design ---*/
+
+.digital-pipeline__edit-forms #smscru_wrap_tpl .control--select--button {
+  background-color: #ffffff;
+}
+
+.digital-pipeline__edit-forms #smscru_wrap_tpl .control--select,
+.digital-pipeline__edit-forms #smscru_ss_cr .control--select {
+  border-radius: 3px;
+  border: 1px solid #d4d5d8;
+  border-bottom-width: 2px;
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.digital-pipeline__edit-forms #smscru_ss_cr .control--select button {
+  padding-left: 0;
+}
+
+.digital-pipeline__edit-forms #smscru_wrap_tpl .control--select--button {
+  border: none;
+  padding-left: 0;
+}
+
+.digital-pipeline__edit-forms #smscru_wrap_tpl .control--select--button:after{
+  right: 4px;
+}
+
+.digital-pipeline__edit-forms #smscru_ss_cr .control--select--list-opened,
+.digital-pipeline__edit-forms #smscru_wrap_tpl .control--select--list-opened {
+  padding-right: 12px;
+  top: -1px;
+}
+
+.digital-pipeline__edit-forms #smscru_ss_cr button {
+  border-width: 0;
+}
+
+#smscru_sending_wrapper .smscru_sending_popup_row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+#smscru_sending_wrapper .smscru_sending_popup_label {
+  width: 67px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+#smscru_sending_wrapper .smscru_sending_popup_input .date_field_wrapper,
+#smscru_sending_wrapper .smscru_sending_popup_input .text-input {
+  height: 29px;
+}
+
+.digital-pipeline__edit-forms #smscru_ss_cr .control--select {
+  padding-right: 0;
+}
+
+#smscru_ss_cr .smscru_req_ss {
+  color: #2a84c0;
+}
+
+#ss_cr .control--select--button {
+  border-width: 1px;
+  padding-left: 7px;
+}
+
+.smsc_tpl{
+  background-color: rgb(240, 250, 255);
+}

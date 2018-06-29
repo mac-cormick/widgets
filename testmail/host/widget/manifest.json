@@ -1,0 +1,31 @@
+{
+    "widget":{
+            "name": "widget.name",
+            "description": "widget.description",
+            "short_description": "widget.short_description",
+            "code": "tttttttttest",
+            "secret_key": "e6c7589d82476a673e59463f0d6c4952485738ddfe29850685e11d29d884486c",
+            "version": "1.0.1",
+            "interface_version": 2,
+            "init_once": false,
+            "locale":[
+                    "ru",
+                    "en"
+                    ],
+            "installation": true
+            },
+    "locations":[
+            "ccard-1",
+            "clist-1",
+            "lcard-1",
+            "llist-1",
+            "settings"
+            ],
+    "settings":{
+                "login":{
+                        "name": "settings.login",
+                        "type": "text",
+                        "required": true
+                        }
+            }
+}
